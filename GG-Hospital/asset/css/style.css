@@ -14,7 +14,6 @@
     /*========Background colors========*/
     --body-bg-color:#FFFFFF;
 
-
 }
 
 
@@ -49,7 +48,6 @@ text-decoration: none;
 li{
 list-style: none;
 }
-
 
 
 /*========Header========*/
@@ -89,14 +87,7 @@ background-color: #fff;
 
 /* topbar */
 .top-bar-main{
-    /* position: relative; */
-    /* max-width: 1250px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* padding: 0 20px; */
+
     transition: .6s ease;
     background-color: #fff;
 }
@@ -175,11 +166,9 @@ height: 76;
 } */
 
 
-
-
 .nav-bar .nav-items .nav-logo{
     /* padding: 20px; */
-    width: 263px;
+    width: 243px;
     height: 65px;
 }
     
@@ -218,19 +207,11 @@ color: var(--second-color);
 
 
 
-
 .nav-bar .logo{
 color:var(--first-color);
 font-size: 1.3em;
 font-weight: 600;
 }
-
-/* .nav-items a{
-color:var(--first-color);
-font-size: var(--normal-font-size);
-font-weight: 500;
-} */
-
 
 
 
@@ -240,7 +221,8 @@ font-weight: 500;
     margin-left: 4rem;
     margin-right: 4rem;
     padding: 10rem 2rem 2rem;
-    margin-bottom: 50px;    
+     
+    margin-bottom: 30px;    
 }
 
 
@@ -252,9 +234,6 @@ font-weight: 500;
     width: 100%;
     background-size: cover;
     padding: 20px 30px 30px 30px;
-    /* margin-left: 50px; */
-    /* margin-right: 50px; */
-    /* padding:  1rem 8rem 8rem 8rem; */
 
 }
 
@@ -266,7 +245,6 @@ font-weight: 500;
 
 
 .main-container .left-side h1{
-
 
     font-size: 65px;
     font-weight: 700;
@@ -283,13 +261,6 @@ font-weight: 500;
 
 }
 
-/* .main-container .left-side h1{
-
-
-    font-size: 3rem;
-    padding-bottom: 5px;
-
-} */
 
 
 .main-container .left-side .buttons{
@@ -317,10 +288,6 @@ font-weight: 500;
 }
 
 
-/* .main-container .left-side .buttons img{
-
-    padding-left: 20px;
-} */
 
 .main-container .left-side .buttons .sec-btn{
 
@@ -330,7 +297,7 @@ font-weight: 500;
 }
 
 .main-container .left-side .buttons .sec-btn img{
-position: relative;
+    position: relative;
 }
 
 .main-container .left-side .buttons .sec-btn a{
@@ -344,7 +311,6 @@ position: relative;
     margin-top: 7.5px;
     
 }  
-
 
 
 
@@ -363,10 +329,6 @@ position: relative;
 }
 
 
-/* .main-container .appointment-container .appointment-form{
-    display: grid;
-} */
-
 .main-container .appointment-container .appointment-form .first-row input{
     
     padding: 15px;
@@ -384,9 +346,6 @@ position: relative;
 }
 
 
-
-
-
 .main-container .appointment-container .appointment-form .sec-row select{
     background-color: #fff;
     border: 1.7px solid #a7a6a6;
@@ -398,14 +357,12 @@ position: relative;
 }
 
 
-
 .main-container .appointment-container .appointment-form .sec-row  option{
 
     color: var(--first-color);
     font-size: 16px;
     font-weight: 500;
 }
-
 
 
 .main-container .appointment-container .appointment-form .sec-row button{
@@ -424,16 +381,15 @@ position: relative;
 
 
 
-/* Departments */
-
+/*=========== Departments ============*/
 
 
 .dept  h3{ 
-font-size: 35px;
-font-weight: 700;
-line-height: 47px;
-letter-spacing: 0.02em;
-text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    text-align: left;
 
 }
 
@@ -442,6 +398,7 @@ text-align: left;
     padding-top: 40px;
     overflow: scroll;
     overflow-y:hidden;
+    scrollbar-width: none;
 }
 
 
@@ -452,15 +409,14 @@ text-align: left;
 }
 
 .dept .dept-container .dept-box img{
-    width: 520px;
-    height: 327px;
+    width: 350px;
+    height: 220px; 
     border-radius: 8px;
     margin-bottom: 30px;
 }
 
 
 .dept .dept-container .dept-box  h4{
-
 
     font-weight: 600;
     font-size: 26px;
@@ -476,24 +432,28 @@ text-align: left;
 }
 
 
+.dept .dept-container .dept-box  span{
+    color: #340dc0;
+    margin-top: 20px;
+}
 
 
-/* Why GG Hospital */
+
+
+
+/* ==========Why GG Hospital ============*/
 
 .why-gg-container{
     display: flex;
     background-color: #E8F9F6;
-    /* justify-content: space-between; */
-    /* padding: 20px; */
+    
 }
-
 
 
 .why-gg-container .left-side img{
 
     width: 650px;
-    /* height: 100%; */
-    /* margin-left: 60px; */
+    
 }
 
 
@@ -523,7 +483,9 @@ text-align: left;
 }
 
 
-/* Specilist */
+
+
+/*=========== Specilist ============*/
 
 .specialist{
     text-align: center;
@@ -559,7 +521,6 @@ text-align: left;
     margin:20px;
     text-align: center;
     
-
 }
 
 
@@ -603,7 +564,10 @@ text-align: left;
 
 
 
-/* Facilities */
+
+
+
+/* =========== Facilities ============*/
 
 .facilities{
     text-align: center;
@@ -612,7 +576,8 @@ text-align: left;
 .facilities-container{
     /* text-align: center; */
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .facilities h3{
@@ -622,15 +587,17 @@ text-align: left;
 
 }
 
-/* .facilities-container .facility-box{
+
+.facilities-container .facility-box{
+    width: 250px;
     display: flex;
-} */
-
-
+}
 
 .facilities-container .facility-box img{
     width: 350px;
     margin: 15px;
+    border-radius: 8px;
+    /* width: 100%; */
 }
 
 
@@ -639,42 +606,54 @@ text-align: left;
 
 
 
-/* Interested */
+/*=========== Interested ============*/
 
-.interest {
+
+
+.interest{
+    background-color: #EAF2FF;
+    position: absolute;
+    margin-top:10rem;
     text-align: center;
-    /* background-color: #EAF2FF; */
-    /* height: 800px; */
-    margin-bottom: 30px;
-    /* position: absolute; */
-    z-index: -1;
+    margin-bottom: 2rem;
+    padding-bottom: 12rem;
 }
 
 .interest h3{
     font-size: 35px;
     font-weight: 700;
-    padding: 12px;
-}
-
-
-.interest-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-    /* position: relative; */
+    /* padding: 12px; */
+    position: relative;
+    bottom: 160px; 
     
-}
 
-
-.interest-container img{
-    width: 350px;
-    
 } 
 
 
+.interest-container{
+
+    display: flex;
+    position: relative;
+    bottom:160px;
+    padding-left: 70px; 
+    padding-right: 70px;
+    
+}
+
+
+.interest-container .interest-box img{
+    width: 100%;
+    border-radius: 8px;
+    
+}    
+
 .interest-container .interest-box{
     text-align: start;
-}
+    justify-content: center;
+    align-items: center;
+    margin:  13px;
+    /* width: 350px; */
+} 
 
 .interest-container .interest-box h4{
     padding:15px 0;
@@ -690,25 +669,31 @@ text-align: left;
 
 .newsletter-container{
     display: flex;
-    /* margin: 50px 0; */
     justify-content: space-between;
     background-image: url("../img/newsletter-bg.png");
-    padding: 50px;
-    margin-top: 50px;
+    padding: 80px;
+    background-color: #ffffff;
+    position: relative;
+    /* margin-top: 50px; */
+    top: 450px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 8px;
+} 
 
-    /* position: relative; */
-}
+
 
 
 .newsletter-container .newsletter-left h3{
     font-size: 25px;
     font-weight: 700;
-}
+}  
 
-.newsletter-container .newsletter-right form{
+
+
+ .newsletter-container .newsletter-right form{
     display: flex;
 } 
-
 
 
 .newsletter-container .newsletter-right input{ 
@@ -719,33 +704,39 @@ text-align: left;
     border-bottom: 1px solid var(--first-color);
     color: var(--scroll-bar-color);
     width: 400px;
-
+    outline: none;
+    position: relative;
+    margin-top: 4px;
 }
 
 
+ 
 
 .newsletter-container .newsletter-right button{
 
     padding: 10px 30px;
-    /* margin-bottom: 4px; */
     border: none;
     background-color: var(--btn-color);
     color: var(--body-bg-color);
     font-weight: 520;
     border-radius: 6px;
-
+    /* margin-left: 10px; */
+    position: absolute;
+    right: 80px;
+    
 }
 
+ 
 
 
 
 
-
-/* Footer */
+/*============ Footer ===========*/
 
 footer{
     background-color: #F9FAFA;
     padding: 50px 20px;
+    margin-top: 500px;
 }
 
 footer .top-section{
@@ -903,3 +894,5 @@ footer .bottom-section .socials-container ul li{
 footer .copyright{
     text-align: center;
 }
+
+
