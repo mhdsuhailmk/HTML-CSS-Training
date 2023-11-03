@@ -3,13 +3,13 @@ Project : Clone Website of GG Hospital
 Technologies Used : HTML, CSS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Contents:-
-==> Navigation Bar
-==> Image Banners
-==> Forms
-==> Departments, Facilities and Activities Card View
-==> Specialists Profile
-==> Newsletter
-==> Footer
+==> Navigation Bar<br/>
+==> Image Banners <br/>
+==> Forms </br>
+==> Departments, Facilities and Activities Card View <br/>
+==> Specialists Profile <br/>
+==> Newsletter <br/>
+==> Footer <br/>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Output:-
