@@ -1,8 +1,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Project : Clone Website of GG Hospital
-Technologies Used : HTML, CSS
+Project : Clone Website of GG Hospital <br/>
+Technologies Used : HTML, CSS <br/>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Contents:-
+Contents:- <br/>
 ==> Navigation Bar<br/>
 ==> Image Banners <br/>
 ==> Forms </br>
